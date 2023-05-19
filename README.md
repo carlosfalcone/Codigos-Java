@@ -1,3 +1,4 @@
 # Codigos-Java
-Repositorio do curso de Java
-Alterando o conteudo de um arquivo de forma local.
+Repositorio do curso de Java.
+
+Arquivos de códigos dos estudos e projetos.
