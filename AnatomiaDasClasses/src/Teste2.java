@@ -6,7 +6,7 @@ public class Teste2 {
 
         final double PI = 3.14; // palavra reservada 'final' defini uma variavel com um unico valor constante
         System.out.println(PI);
-        PI = 4.2;
+        PI = 4.2; // Esta linha dará um erro, pois o PI é uma constante, definida pela palavra reservada 'final'
     }
 
 }
