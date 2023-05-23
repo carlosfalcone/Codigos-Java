@@ -1,0 +1,32 @@
+Resposta do chatGPT3 à pergunta abaixo, pois no projeto sistema-smart-tv a pasta bin nao 
+foi criada automaticamente.
+
+PERGUNTA:
+o que fazer quando a pasta bin nao é gerada automaticamente na criaçao de um projeto 
+java no vscode
+
+RESPOSTA:
+Certifique-se de que você criou um projeto Java adequado no VS Code. 
+Para criar um projeto Java no VS Code, você pode usar a extensão "Java Extension Pack" 
+ou seguir as etapas a seguir:
+
+Abra o VS Code e crie uma nova pasta para o seu projeto.
+Abra o terminal integrado do VS Code (Ctrl+` ou View > Terminal) e navegue até a pasta do projeto.
+Execute o comando "javac -d bin src/*.java" para compilar os arquivos Java na pasta "src" e gerar a pasta "bin" para armazenar os arquivos compilados.
+Verifique se sua estrutura de projeto está correta. Uma estrutura de projeto Java 
+típica contém uma pasta "src" para os arquivos-fonte Java e uma pasta "bin" para os 
+arquivos compilados. Certifique-se de ter essa estrutura correta e de que os arquivos 
+Java estão localizados na pasta "src".
+
+
+DESDOBRAMENTOS:
+Tentativa de rodar o arquivo SmartTv.class no cmd (terminal)
+
+1 - Tive que reinstalar o java jre para o windows, pois o primeiro erro dizia que a versao
+do jre era inferior à versao do jdk.
+2 - Tentei rodar o arquivo SmartTv.class no cmd (terminal) porem apareceu uma msg de erro dizendo
+que o metodo main nao tinha sido encontrado. Adicionei o metodo main conforme sugerido
+na propria msg de erro, porem depois apareceu outro erro.
+3 - O terceiro erro ocorreu porque o arquivo SmartTv.class nao foi salvo automaticamente.
+Nao sei o motivo deste projeto ter sido construido com esse tipo de problema.
+Deletei o arquivo SmartTv.class e fiz novamente o procedimento manual para criá-lo.

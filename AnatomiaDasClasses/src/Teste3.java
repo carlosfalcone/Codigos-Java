@@ -51,7 +51,6 @@ public class Teste3 {
 
         System.out.println("FIM"); // para esta linha ser escrita de forma automatica, digite 'sout' e aperte a tecla de espaço
     
-    
-    
+
     }
 }

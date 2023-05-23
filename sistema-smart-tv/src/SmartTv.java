@@ -4,6 +4,10 @@ public class SmartTv {
     int canal = 1;
     int volume = 25;
 
+    public static void main(String[] args) {
+        System.out.println("METODO MAIN DO ALGORITMO DE SMART TV");
+    }
+
     public void ligar() {
         ligada = true;
         System.out.println("Ligando a TV");
