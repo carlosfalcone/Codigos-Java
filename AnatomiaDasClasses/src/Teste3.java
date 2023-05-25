@@ -23,13 +23,13 @@ public class Teste3 {
             resultado1 = "verdadeiro";
         else
             resultado1 = "falso";
-        System.out.println("resultado1: " + resultado1);
-        // Ou podemos escrever da seguinte forma:
-        String resultado2 = a==b ? "Verdadeiro" : "Falso";
-        System.out.println("resultado2: " + resultado2);
-        // Ou podemos escrever de mais uma outra forma:
-        int resultado3 = a==b ? 1 : 0;
-        System.out.println("resultado3: " + resultado3);
+            System.out.println("resultado1: " + resultado1);
+            // Ou podemos escrever da seguinte forma:
+            String resultado2 = a==b ? "Verdadeiro" : "Falso";
+            System.out.println("resultado2: " + resultado2);
+            // Ou podemos escrever de mais uma outra forma:
+            int resultado3 = a==b ? 1 : 0;
+            System.out.println("resultado3: " + resultado3);
 
 
         numero1 = 1; // o tipo desta variavel já foi definido lá em cima
@@ -47,6 +47,15 @@ public class Teste3 {
         if(condicao1 || condicao2) { //OR
             System.out.println("Uma das condições é verdadeira");
         }
+
+        // Quando se tem apenas uma linha de comando em cada if, nao precisa das chaves
+        boolean condicao3 = true, condicao4 = true;
+        if(condicao3 && condicao4)  // AND
+            System.out.println(" - As duas condições sao verdadeiras");
+        
+        if(condicao3 || condicao4)  //OR
+            System.out.println(" - Uma das condições é verdadeira");
+        
 
 
         System.out.println("FIM"); // para esta linha ser escrita de forma automatica, digite 'sout' e aperte a tecla de espaço
