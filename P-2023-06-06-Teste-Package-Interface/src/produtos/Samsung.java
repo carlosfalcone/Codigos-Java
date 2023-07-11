@@ -1,8 +1,7 @@
 package produtos;
+import interfaces.telefone;
 
-import interfaces2.Telefone;
-
-public class Samsung implements Telefone {
+public class Samsung implements telefone {
     
     public static void main(String[] args) {
         Samsung meu_samsung = new Samsung();
